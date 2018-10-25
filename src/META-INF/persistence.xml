@@ -8,6 +8,7 @@
 		<class>model.Pessoa</class>
 		<class>model.DefaultEntity</class>
 		<class>model.Telefone</class>
+		<class>model.Diario</class>
 		
 		<properties>
 			<property name="javax.persistence.jdbc.url"

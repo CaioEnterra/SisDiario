@@ -13,11 +13,6 @@ import javax.persistence.OneToMany;
 @Entity
 public class Pessoa extends DefaultEntity<Pessoa> {
 
-	
-	
-	/**
-	 * 
-	 */
 	private static final long serialVersionUID = 5890699267888762069L;
 	
 	private String cpf;
@@ -26,10 +21,6 @@ public class Pessoa extends DefaultEntity<Pessoa> {
 	private String senha;
 	private String email;
 
-	
-	
-	
-	
 
 	//@OneToMany(cascade=CascadeType.ALL, mappedBy="cliente")
 	//private List<Telefone> listaTelefone;

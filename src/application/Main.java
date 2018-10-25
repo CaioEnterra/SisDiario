@@ -16,11 +16,11 @@ public class Main extends Application {
 	@Override
 	public void start(Stage primaryStage) throws Exception {
 		
-		Parent root = FXMLLoader.load(getClass().getResource("/view/cadastroPessoa.fxml"));
+		Parent root = FXMLLoader.load(getClass().getResource("/view/diario.fxml"));
 		
-		Scene scene = new Scene(root, 600, 600);
+		Scene scene = new Scene(root, 750, 600);
 		
-		primaryStage.setTitle("Cadastro Cidade");
+		primaryStage.setTitle("Escrever Anotações Diarias");
 		primaryStage.setScene(scene);
 		primaryStage.show();
 	}
