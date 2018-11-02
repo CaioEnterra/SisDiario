@@ -4,6 +4,8 @@ import java.time.LocalDate;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
 
 @Entity
 public class Diario extends DefaultEntity<Diario> {
@@ -16,6 +18,10 @@ public class Diario extends DefaultEntity<Diario> {
 	@Column(columnDefinition = "Date")
 	private LocalDate dataCadastro;
 
+	/*@ManyToOne
+	@JoinColumn(name="idPessoa")
+	private Pessoa pessoa;*/
+	
 	public String getTipo() {
 		return tipo;
 	}

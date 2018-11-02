@@ -28,6 +28,9 @@ public class Pessoa extends DefaultEntity<Pessoa> {
 	@Column(columnDefinition="Date")
 	private LocalDate dataAniversaio;
 	
+/*	@OneToMany(cascade=CascadeType.ALL, mappedBy="pessoa")
+	private List<Telefone> listaTelefone;*/
+	
 	public Pessoa() {
 		
 	}
