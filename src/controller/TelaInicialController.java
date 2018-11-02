@@ -26,7 +26,6 @@ public class TelaInicialController {
 		stage.setTitle("Escrever Diario");
 		stage.show();
 	}
-
 	@FXML
 	void handleAbrirDesejos(ActionEvent event) throws IOException {
 		
