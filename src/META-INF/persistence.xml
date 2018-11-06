@@ -9,6 +9,7 @@
 		<class>model.DefaultEntity</class>
 		<class>model.Telefone</class>
 		<class>model.Diario</class>
+		<class>model.Desejo</class>
 		<class>model.Desejos</class>
 		
 		<properties>
