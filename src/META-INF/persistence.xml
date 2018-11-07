@@ -11,6 +11,7 @@
 		<class>model.Diario</class>
 		<class>model.Desejo</class>
 		<class>model.Desejos</class>
+		<class>model.Tarefa</class>
 		
 		<properties>
 			<property name="javax.persistence.jdbc.url"
